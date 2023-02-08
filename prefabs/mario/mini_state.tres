@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="PlayerStateData" load_steps=4 format=3 uid="uid://dp4tc75s6obao"]
+
+[ext_resource type="SpriteFrames" uid="uid://dmjva3nw3a7hs" path="res://modules/base/objects/mario/prefabs/sprite_frames/small.tres" id="1_wrj7n"]
+[ext_resource type="Script" path="res://modules/mini-powerup/prefabs/mario/mini_action.gd" id="2_t7mq3"]
+[ext_resource type="Script" path="res://engine/scripts/resources/player_state_data/player_state_data.gd" id="2_vtyp0"]
+
+[resource]
+script = ExtResource("2_vtyp0")
+state_name = &"mini"
+player_prefab = ExtResource("1_wrj7n")
+player_script = ExtResource("2_t7mq3")
+player_power = 2
