@@ -22,11 +22,11 @@ func _ready() -> void:
 	player.config.fall_speed = 15
 	player.config.max_fall_speed = 300
 	
-	player.config.acceleration_speed = 12.5 / 2.0
-	player.config.deceleration_speed = 5 / 2.0
-	player.config.initial_acceleration = 40 / 2.0
-	player.config.initial_accel_trigger = 20 / 2.0
-	player.config.max_walk_speed = 175 / 2.0
+	player.config.acceleration_speed = old_config.acceleration_speed / 2.0
+	player.config.deceleration_speed = old_config.deceleration_speed / 2.0
+	player.config.initial_acceleration = old_config.initial_acceleration / 2.0
+	player.config.initial_accel_trigger = old_config.initial_accel_trigger / 2.0
+	player.config.max_walk_speed = old_config.max_walk_speed / 2.0
 	player.config.max_run_speed = 300
 
 
