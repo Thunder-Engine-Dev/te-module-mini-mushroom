@@ -28,6 +28,8 @@ func _ready() -> void:
 	player.config.initial_accel_trigger = old_config.initial_accel_trigger / 2.0
 	player.config.max_walk_speed = old_config.max_walk_speed / 2.0
 	player.config.max_run_speed = 300
+	
+	player.config.sound_pitch = 1.5
 
 
 func _physics_process(delta: float) -> void:
