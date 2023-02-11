@@ -20,6 +20,7 @@ script = ExtResource("1_2yi4n")
 set_player_state = ExtResource("2_w6ddh")
 force_powerup_state = true
 appear_distance = 16.0
+sound_pitch = 1.5
 speed = Vector2(100, 0)
 gravity_scale = 0.25
 
