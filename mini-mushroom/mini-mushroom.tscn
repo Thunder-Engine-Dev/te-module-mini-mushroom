@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://sceq1lklgbsy"]
 
-[ext_resource type="Script" path="res://modules/base/objects/powerups/powerup.gd" id="1_2yi4n"]
+[ext_resource type="Script" path="res://engine/objects/powerups/powerup.gd" id="1_2yi4n"]
 [ext_resource type="Resource" uid="uid://dp4tc75s6obao" path="res://modules/mini-powerup/prefabs/mario/mini_state.tres" id="2_w6ddh"]
 [ext_resource type="Texture2D" uid="uid://beli70swls568" path="res://modules/mini-powerup/mini-mushroom/texture.png" id="3_2brgv"]
 [ext_resource type="Script" path="res://engine/scripts/nodes/vision/vision.gd" id="4_wixmf"]
